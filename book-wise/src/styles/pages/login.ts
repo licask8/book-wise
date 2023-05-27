@@ -3,7 +3,8 @@ import { styled } from "../../../stitches.config";
 export const LoginContainer = styled('main', {
   display: 'grid',
   gridTemplateColumns: '1.1fr 1fr',
-  minHeight: '100vh'
+  padding: 20,
+  minHeight: '100vh',
 })
 
 export const LogoSection = styled('section', {
@@ -14,19 +15,19 @@ export const LogoSection = styled('section', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  borderRadius: 10
+  borderRadius: 10,
 })
 
 export const WelcomeSection = styled('section', {
- width: '100%',
- maxWidth: 372,
- margin: '0 auto',
- display: 'flex',
- flexDirection: 'column',
- justifyContent: 'center',
- paddingLeft: 20,
+  width: '100%',
+  maxWidth: '372px',
+  margin: '0 auto',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  paddingLeft: 20,
 
   section: {
-    marginTop: 40,
+    marginTop: 40
   }
 })

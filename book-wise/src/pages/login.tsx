@@ -2,7 +2,7 @@ import { AuthButtons } from "@/components/AuthButtons";
 import { Heading, Text } from "@/components/Typography";
 import { LoginContainer, LogoSection, WelcomeSection } from "@/styles/pages/login";
 import Head from "next/head";
-
+ 
 export default function Login() {
   return (
     <LoginContainer>
